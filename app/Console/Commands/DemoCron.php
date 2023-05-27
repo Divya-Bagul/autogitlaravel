@@ -39,9 +39,9 @@ class DemoCron extends Command
         $data['add'] = shell_exec('git add --all');
         $data['add'] = shell_exec('git commit -m "update changes');
         $data['push'] = shell_exec('git pull origin main');
-        echo ($data);
+        // echo ($data);
 
-        // print_r($data);
+        print_r($data);
 
 // debug
 // dd( $data );
