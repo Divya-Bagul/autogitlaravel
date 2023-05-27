@@ -27,7 +27,7 @@ class pull extends Command
      */
     public function handle()
     {
-        // \Log::info("Cron is working fine!");
+       
         // echo 'C:\Divya\javascript';
         // $data['output']['init'] = shell_exec('git init');
         // $data['output']['status'] = shell_exec('git add README.md');

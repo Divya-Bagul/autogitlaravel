@@ -27,8 +27,8 @@ class DemoCron extends Command
      */
     public function handle()
     {
-        \Log::info("Cron is working fine!");
-        // echo 'C:\Divya\javascript';
+        
+       
         // $data['output']['init'] = shell_exec('git init');
         // $data['output']['status'] = shell_exec('git add README.md');
         // $data['output']['add'] = shell_exec('git commit -m "first commit"');
@@ -37,16 +37,12 @@ class DemoCron extends Command
         // $data['output']['add'] = shell_exec('git push -u origin main');
         $data['status'] = shell_exec('git status');
         $data['add'] = shell_exec('git add --all');
-        $data['add'] = shell_exec('git commit -m "update changes');
+        $data['commit'] = shell_exec('git commit -m "update changes');
         $data['pull'] = shell_exec('git pull origin main');
         $data['push'] = shell_exec('git push origin main');
-
-        // echo ($data);
-
         print_r($data);
 
-// debug
-// dd( $data );
-        // return Command::SUCCESS;
+
+       
     }
 }
