@@ -11,7 +11,7 @@ class DemoCron extends Command
      *
      * @var string
      */
-    protected $signature = 'demo:cron';
+    protected $signature = 'git:own';
 
     /**
      * The console command description.
